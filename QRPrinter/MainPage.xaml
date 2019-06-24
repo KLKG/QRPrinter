@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="QRPrinter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QRPrinter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Margin" Value="4,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock>Url:</TextBlock>
+            <TextBox x:Name="UrlTextBox" Text="https://lm.de/_{0}" MinWidth="400"/>
+            <TextBlock>Range:</TextBlock>
+            <TextBox x:Name="MinTextBox" Text="1" TextChanged="MinTextBox_TextChanged"/>
+            <TextBlock>...</TextBlock>
+            <TextBox x:Name="MaxTextBox" Text="10" TextChanged="MaxTextBox_TextChanged"/>
+            <TextBlock/>
+            <Button HorizontalAlignment="Center" Click="PrintButtonClick">Print</Button>
+        </StackPanel>
+        
+
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <!-- DIN A4 = 210 x 297 mm -->
+            <!-- x 3 = 630 x 891 -->
+            <Grid x:Name="RectangleToPrint"
+                  Background="White"
+                  Width="756"
+                  Height="1069">
+
+                <Grid Margin="40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Foreground="Black" TextWrapping="WrapWholeWords">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </TextBlock>
+
+                    <Image x:Name="QRImage" 
+                       Grid.Row="1"
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"
+                       Source="/Assets/img.jpg"/>
+
+                    <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" Grid.Row="2">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </TextBlock>
+
+                </Grid>
+
+            </Grid>
+
+        </ScrollViewer>
+        
+    </Grid>
+</Page>

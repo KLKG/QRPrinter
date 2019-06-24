@@ -1,0 +1,1 @@
+C:\data\git\QRPrinter\QRPrinter\QRPrinter.csproj;x86
