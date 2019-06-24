@@ -71,7 +71,7 @@
                             If the QR-Code is not working use the following URL and ID:<LineBreak/>
                         </TextBlock>
                         <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
-                            URL: https://pdu.c3power.de
+                            https://pdu.c3power.de
                         </TextBlock>
                         <TextBlock x:Name="tb2" Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
                     </StackPanel>
