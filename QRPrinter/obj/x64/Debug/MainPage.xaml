@@ -1,0 +1,87 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="QRPrinter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QRPrinter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                         d:DesignWidth="757.515" Width="756" Height="1109">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Margin" Value="4,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock>Url:</TextBlock>
+            <TextBox x:ConnectionId='5' x:Name="UrlTextBox" Text="https://pdu.c3power.de/pdu.php?pdu={0}" MinWidth="400"/>
+            <TextBlock>Range:</TextBlock>
+            <TextBox x:ConnectionId='6' x:Name="MinTextBox" Text="1"                                     />
+            <TextBlock>...</TextBlock>
+            <TextBox x:ConnectionId='7' x:Name="MaxTextBox" Text="10"                                     />
+            <TextBlock/>
+            <Button x:ConnectionId='8' HorizontalAlignment="Center"                         >Print</Button>
+        </StackPanel>
+        
+
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <!-- DIN A4 = 210 x 297 mm -->
+            <!-- x 3 = 630 x 891 -->
+            <Grid x:ConnectionId='2' x:Name="RectangleToPrint"
+                  Background="White"
+                  Width="756"
+                  Height="1069">
+
+                <Grid Margin="40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.Row="0" >
+                        <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" FontSize="48" FontWeight="Bold" TextDecorations="Underline" TextAlignment="Center">
+                             C3Power - Distribution Box 
+                        </TextBlock>
+                        <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" FontSize="22" FontWeight="Bold" TextAlignment="Center">
+                            <LineBreak/>
+                             Scan the QR-Code and submit your problem / question.
+
+                        </TextBlock>
+                    </StackPanel>
+                    
+                    <Image x:ConnectionId='3' x:Name="QRImage" 
+                       Grid.Row="1"
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"
+                       Source="/Assets/img.jpg"/>
+
+                    <StackPanel Grid.Row="2" >
+                        <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
+                            If the QR-Code is not working use the following URL and ID:<LineBreak/>
+                        </TextBlock>
+                        <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
+                            URL: https://pdu.c3power.de
+                        </TextBlock>
+                        <TextBlock x:ConnectionId='4' x:Name="tb2" Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
+                    </StackPanel>
+                    
+                </Grid>
+
+            </Grid>
+
+        </ScrollViewer>
+        
+    </Grid>
+</Page>
+

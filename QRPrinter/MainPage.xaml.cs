@@ -197,6 +197,8 @@ namespace QRPrinter
 
                 QRImage.Source = image;
             }
+
+            this.tb2.Text = "PDU-ID: " + index;
         }
 
         #region min .. max

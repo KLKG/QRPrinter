@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Loaded="Page_Loaded">
+    Loaded="Page_Loaded" d:DesignWidth="757.515" Width="756" Height="1109">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
@@ -24,7 +24,7 @@
                 </Style>
             </StackPanel.Resources>
             <TextBlock>Url:</TextBlock>
-            <TextBox x:Name="UrlTextBox" Text="https://lm.de/_{0}" MinWidth="400"/>
+            <TextBox x:Name="UrlTextBox" Text="https://pdu.c3power.de/pdu.php?pdu={0}" MinWidth="400"/>
             <TextBlock>Range:</TextBlock>
             <TextBox x:Name="MinTextBox" Text="1" TextChanged="MinTextBox_TextChanged"/>
             <TextBlock>...</TextBlock>
@@ -48,21 +48,34 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.Row="0" >
+                        <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" FontSize="48" FontWeight="Bold" TextDecorations="Underline" TextAlignment="Center">
+                             C3Power - Distribution Box 
+                        </TextBlock>
+                        <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" FontSize="22" FontWeight="Bold" TextAlignment="Center">
+                            <LineBreak/>
+                             Scan the QR-Code and submit your problem / question.
 
-                    <TextBlock Foreground="Black" TextWrapping="WrapWholeWords">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    </TextBlock>
-
+                        </TextBlock>
+                    </StackPanel>
+                    
                     <Image x:Name="QRImage" 
                        Grid.Row="1"
                        VerticalAlignment="Center" 
                        HorizontalAlignment="Center"
                        Source="/Assets/img.jpg"/>
 
-                    <TextBlock Foreground="Black" TextWrapping="WrapWholeWords" Grid.Row="2">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    </TextBlock>
-
+                    <StackPanel Grid.Row="2" >
+                        <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
+                            If the QR-Code is not working use the following URL and ID:<LineBreak/>
+                        </TextBlock>
+                        <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
+                            URL: https://pdu.c3power.de
+                        </TextBlock>
+                        <TextBlock x:Name="tb2" Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
+                    </StackPanel>
+                    
                 </Grid>
 
             </Grid>

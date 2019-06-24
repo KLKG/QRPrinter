@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj": {}
+    "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj": {}
   },
   "projects": {
-    "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj": {
+    "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
+        "projectUniqueName": "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
         "projectName": "QRPrinter",
-        "projectPath": "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
-        "packagesPath": "C:\\Users\\Allers\\.nuget\\packages\\",
-        "outputPath": "C:\\data\\git\\QRPrinter\\QRPrinter\\obj\\",
+        "projectPath": "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\QRPrinter\\QRPrinter\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Allers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
