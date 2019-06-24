@@ -7,35 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-                         d:DesignWidth="757.515" Width="756">
-    <!-- Height="1109"-->
+                         d:DesignWidth="757.515" Width="756" ><!--Height="1109"-->
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+    <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
-            <StackPanel.Resources>
-                <Style TargetType="TextBlock">
-                    <Setter Property="VerticalAlignment" Value="Center"/>
-                    <Setter Property="Margin" Value="4,0"/>
-                </Style>
-            </StackPanel.Resources>
-            <TextBlock>Url:</TextBlock>
-            <TextBox x:ConnectionId='5' x:Name="UrlTextBox" Text="https://pdu.c3power.de/pdu.php?pdu={0}" MinWidth="400"/>
-            <TextBlock>Range:</TextBlock>
-            <TextBox x:ConnectionId='6' x:Name="MinTextBox" Text="1"                                     />
-            <TextBlock>...</TextBlock>
-            <TextBox x:ConnectionId='7' x:Name="MaxTextBox" Text="10"                                     />
-            <TextBlock/>
-            <Button x:ConnectionId='8' HorizontalAlignment="Center"                         >Print</Button>
-        </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+                <StackPanel.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="Margin" Value="4,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock>Url:</TextBlock>
+                <TextBox x:ConnectionId='5' x:Name="UrlTextBox" Text="https://pdu.c3power.de/pdu.php?pdu={0}" MinWidth="400"/>
+                <TextBlock>Range:</TextBlock>
+                <TextBox x:ConnectionId='6' x:Name="MinTextBox" Text="1"                                     />
+                <TextBlock>...</TextBlock>
+                <TextBox x:ConnectionId='7' x:Name="MaxTextBox" Text="10"                                     />
+                <TextBlock/>
+                <Button x:ConnectionId='8' HorizontalAlignment="Center"                         >Print</Button>
+            </StackPanel>
         
 
-        <ScrollViewer Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">
             <!-- DIN A4 = 210 x 297 mm -->
             <!-- x 3 = 630 x 891 -->
             <Grid x:ConnectionId='2' x:Name="RectangleToPrint"
@@ -81,8 +80,9 @@
 
             </Grid>
 
-        </ScrollViewer>
+       
         
-    </Grid>
+        </Grid>
+    </ScrollViewer>
 </Page>
 
