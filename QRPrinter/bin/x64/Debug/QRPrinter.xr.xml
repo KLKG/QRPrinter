@@ -5,7 +5,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
     </RootType>

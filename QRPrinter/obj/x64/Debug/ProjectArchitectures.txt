@@ -1,1 +1,1 @@
-E:\github\QRPrinter\QRPrinter\QRPrinter.csproj;x64
+C:\data\git\QRPrinter\QRPrinter\QRPrinter.csproj;x64

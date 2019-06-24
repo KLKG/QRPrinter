@@ -3939,7 +3939,7 @@
       ]
     },
     "Microsoft.Net.UWPCoreRuntimeSdk/2.2.8": {
-      "sha512": "44fZytV0pr3G7vcNB5WCMoYQk3akkfxWNoDzSZqflTnWoNYgl8exlnpQaMkmgUABpP4gD4vY/S2kcpRTncGKdQ==",
+      "sha512": "Rx/UN3QlZxmdS3KfqrbVWvcUUB9fXugtCetO1cW9gWfa1yQWWhVmKxOB+9M5TLtmGjJYJPz5Hf1lbkJtRu67EA==",
       "type": "package",
       "path": "microsoft.net.uwpcoreruntimesdk/2.2.8",
       "hasTools": true,
@@ -3975,7 +3975,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "Ca8F9Sran31PKlPmoAdUAKEWPAWrj8Xn3kjpTCXPh2KAzcFlmn1cBcBb4cifUsTuf9XCi8+6FA48O3J62xVApw==",
+      "sha512": "xnpp1xvvIg9ggb2ZeMqA6WdS4iMrm+THrFa5dhVYRfFmjDeVAUVFoxEyYd4LYkJqEcdXADdm5tdfFLZvCGa/Qw==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -4417,7 +4417,7 @@
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "9/HmymcDoEdwWCMynAyYiqMjeOcw9JBtP+2s6rsepQaa/DI+EqFpJQP9B75zXTZifiLd4r+Iv0cedMkClPKa2A==",
+      "sha512": "t5G7HnhujEwXQHgvsOaPZOjsn7kxPLL9fNoG92a5d7t/lufe7s9cRJiTkOT6C8XQFkB72FAFBfbLd6GYkvbK0g==",
       "type": "package",
       "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -5277,7 +5277,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.2.8": {
-      "sha512": "jK5srufvJtKen3aNsYd+cb+i9Z7kuLQRIwu77RLMPxOsRbAbbWsrXu+eH+izDL4ifZvWzi51ho9RrE7myisBeA==",
+      "sha512": "5xsr4+gD7O1ubyb1hKwMxzIIg8QahiipvBWV92/dmgxBkpQrKUFnVAHtQSJ6lXJQInw9Cv/NcbbCkn81ShORJA==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/2.2.8",
       "hasTools": true,
@@ -5298,7 +5298,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "gVBtcw4SC8ZnERsg0dX3ckngtFW7ADf5Tv7bjxiV6k3I0LLGjdTmxqTCb0STsg1nOxOwdUxZNg4qhxAL59B42g==",
+      "sha512": "1VrhpUmV/9HnhOSHXDTfNC1UXANDLkJK90/s2ra+GrkxnYkjH7NH6tQAl7i+WvrRoD3rrmiDm2mK4jORPcHwiQ==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -5480,7 +5480,7 @@
       ]
     },
     "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "QMjdoZimyzQjM9XDGLLjHPNHtWtOkuOaC+Z0UC9j7ZhaABXyBrIwCQ+FNF8tAb1dIgxmK/BtgYPEzchCCBbriA==",
+      "sha512": "1GJj6k5RIhn5x+ir43XS3+T5vX1k+AE6wzV38XVtLFFIpcunBj0cb5/FqB/kWx7/5M3XikNHSqwSLtzOfibw8Q==",
       "type": "package",
       "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -6221,7 +6221,7 @@
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "lHdH8LXmt/b5SlijBCc6dIsAvx+Sko2mDu/moEyut7wdbcMYqX8ey3OwZ0v+Bag0Qzi/oQEtKPAcETa2XhVaZA==",
+      "sha512": "i3RTx5qFJObd1B9ta/tZ11Ak7kNiKjTZwO/C/SnAmr7K6YGug/yy7QG6ddpmKMtBZugC+5TJC4uB9UR/VuSS8g==",
       "type": "package",
       "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -7075,7 +7075,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk/2.2.8": {
-      "sha512": "UD6rvYtYP5CB8depBGrSjm06ci7C49WnvWyBvjN0p2S1G2Cxj44LEgAUsxkNyJa6VHaCyhpRkyPj9jOhFrBrAg==",
+      "sha512": "43ao7mDqduSqWwqcMBEoVfFr6MfF5BkdzaPWnljDt9miwd7FuqTtfTfOuLopc3ccF6os24TI9clSeLDEjLgBGg==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk/2.2.8",
       "hasTools": true,
@@ -7096,7 +7096,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "OhqoWvyXCn61OLQ41wsVoYhc/4Ezd5hPIleSsCx3F3+rQLV55sTFhXuE+i+2F7SBtcLTO7UxSfTVfUlfE56BCQ==",
+      "sha512": "LPqMBOXKYrYJ6qnR1V21noZx95vKzOmSQMJIcZjY4R01DzMAmqvwsWvCxPjPTmEwpa0smEbzNYtwb1FJAHxBfA==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -7278,7 +7278,7 @@
       ]
     },
     "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "nxlybzt8OTKigvRsd5ls8S+ATWJHxBKXKUl/IpomKHKK3HBmaNR5nHlaE+Lzp5TzD7r7jbzulLhLIHFH7za7qw==",
+      "sha512": "9znHToJLlua8ROfPasIbNCzwcFWPLkb0Xa60O0p7LkUn/a97uPLtWUInEIN/JV9Cd6NWdhXRtnZ9kmJb5faa6A==",
       "type": "package",
       "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -8132,7 +8132,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk/2.2.8": {
-      "sha512": "BmaWapZADIpxWCvTiME2Y4YURI7SR6kwDb5ur3SDtJUCjhfxF2s3d+wfCN0okhN0Tv8g2vBBO4LOgKhDN1iTWw==",
+      "sha512": "UeMDUObaPiLdNRFdv3R07MdbvT2k2BgZMFkGCQYOSLfAyKA+/wUqT4EG5NBFBhi3wQWaWSyL9DgbVfJwWyTGLg==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/2.2.8",
       "hasTools": true,
@@ -8153,7 +8153,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
-      "sha512": "vFrE1qxUfi7afk2cBpZ6z6wwWuBlRrIgPtYHswegPrZWMC04/gCjCIf5Owy33WWB5FHgOZQOu6pk4zYuKe1V8Q==",
+      "sha512": "NjyGnK679P+K2yNzSGPixuxG0LhWZZYImomYblgZeNk0ueIuNK0kLWZHNbDTbWCafPXQ0a3qNYDnXuRnct2AAA==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
@@ -8375,26 +8375,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fried\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Allers\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
+      "projectUniqueName": "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
       "projectName": "QRPrinter",
-      "projectPath": "E:\\github\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
-      "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-      "outputPath": "E:\\github\\QRPrinter\\QRPrinter\\obj\\",
+      "projectPath": "C:\\data\\git\\QRPrinter\\QRPrinter\\QRPrinter.csproj",
+      "packagesPath": "C:\\Users\\Allers\\.nuget\\packages\\",
+      "outputPath": "C:\\data\\git\\QRPrinter\\QRPrinter\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Allers\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -175,6 +175,8 @@ namespace QRPrinter
 
         private async Task CreateQR(int index)
         {
+            this.tb2.Text = "PDU-ID: " + index;
+
             var url         = string.Format(UrlTextBox.Text, index);
             var qrGenerator = new QRCodeGenerator();
             var payload     = new PayloadGenerator.Url(url);
@@ -198,7 +200,7 @@ namespace QRPrinter
                 QRImage.Source = image;
             }
 
-            this.tb2.Text = "PDU-ID: " + index;
+            
         }
 
         #region min .. max

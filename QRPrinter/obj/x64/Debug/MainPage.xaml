@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-                         d:DesignWidth="757.515" Width="756" Height="1109">
+                         d:DesignWidth="757.515" Width="756">
+    <!-- Height="1109"-->
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
@@ -71,7 +72,7 @@
                             If the QR-Code is not working use the following URL and ID:<LineBreak/>
                         </TextBlock>
                         <TextBlock  Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center">
-                            URL: https://pdu.c3power.de
+                            https://pdu.c3power.de
                         </TextBlock>
                         <TextBlock x:ConnectionId='4' x:Name="tb2" Foreground="Black" TextWrapping="WrapWholeWords" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
                     </StackPanel>
