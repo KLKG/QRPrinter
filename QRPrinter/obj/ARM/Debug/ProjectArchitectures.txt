@@ -1,1 +1,0 @@
-E:\github\QRPrinter\QRPrinter\QRPrinter.csproj;arm
